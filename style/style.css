@@ -1,9 +1,16 @@
 body{
     margin-top: 35px;
-    background-color:aliceblue;
-    color: black;
+    padding: 20px;
+    color: #F0F2FE !important;
+    background-color: #1E1F24 !important;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+label{
+    font-size: 20px;
+}
+span{
+    font-size: 20px;
 }
 div{
     text-align: center;
@@ -14,16 +21,13 @@ section{
     text-align: center;
     padding: 10px;
     max-width: 400px;
-    background: linear-gradient(135deg, #40A9FD 0%, #8C4EFF 100%);
+    background-color: #818092;
 }
 #resposta{
     text-align: left;
 }
-.btn{
-    background-color: #40A9FD ;
-    color: white;
-    padding: 20px;
-    border-radius: 7px;
+button{
+    color: #F0F2FE !important;
 }
 h1::after {
     content: '|';
@@ -42,7 +46,7 @@ h1::after {
 }
 
 h1{
-    color: black;
+    color:#F0F2FE;
 }
 
 .logo{
